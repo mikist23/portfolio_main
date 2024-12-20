@@ -6,23 +6,23 @@ export const navItems = [
 ];
 
 export const gridItems = [
-  {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
+  // {
+  //   id: 1,
+  //   title: "I prioritize client collaboration, fostering open communication ",
+  //   description: "",
+  //   className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+  //   imgClassName: "w-full h-full",
+  //   titleClassName: "justify-end",
+  //   img: "/b1.svg",
+  //   spareImg: "",
+  // },
   {
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2 h-64",
     imgClassName: "",
-    titleClassName: "justify-start",
+    titleClassName: "justify-start ",
     img: "",
     spareImg: "",
   },
@@ -47,16 +47,16 @@ export const gridItems = [
     spareImg: "/b4.svg",
   },
 
-  {
-    id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
+  // {
+  //   id: 5,
+  //   title: "Currently building a JS Animation library",
+  //   description: "The Inside Scoop",
+  //   className: "md:col-span-3 md:row-span-2",
+  //   imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+  //   titleClassName: "justify-center md:justify-start lg:justify-center",
+  //   img: "/b5.svg",
+  //   spareImg: "/grid.svg",
+  // },
   {
     id: 6,
     title: "Do you want to start a project together?",
@@ -80,19 +80,19 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    title: "MERN Real Estate Marketplace",
+    des: "The MERN Real Estate Marketplace is a cutting-edge platform designed to revolutionize the process of buying, selling, and renting properties. Utilizing the MERN stack (MongoDB, Express.js, React, and Node.js) for a robust and scalable architecture, this marketplace offers a seamless user experience. Key features include secure user authentication, comprehensive property listings with advanced search and filters, and real-time communication using Socket.io for instant messaging between buyers and sellers. The platform also integrates interactive maps for location-based searches, supports responsive design for optimal use across devices, and incorporates secure payment gateways for transactions.",
+    img: "/mern_project.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Malignancy Risk Assessment Tool",
+    des: "The Malignancy Risk Assessment Tool is a powerful machine-learning application designed to evaluate whether a cell cluster is benign or malignant. By analyzing key cellular features, this tool delivers real-time, data-driven predictions to assist healthcare professionals in making critical diagnostic decisions. With an intuitive interface and interactive visualizations, the tool enhances the diagnostic process, providing clear insights that support the early detection and treatment of cancer.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://shorturl.at/SltaG",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "/ui.apple.com", 
   },
 ];
 
