@@ -90,16 +90,16 @@ export const projects = [
     id: 3,
     title: "Malignancy Risk Assessment Tool",
     des: "The Malignancy Risk Assessment Tool is a powerful machine-learning application designed to evaluate whether a cell cluster is benign or malignant. By analyzing key cellular features, this tool delivers real-time, data-driven predictions to assist healthcare professionals in making critical diagnostic decisions. With an intuitive interface and interactive visualizations, the tool enhances the diagnostic process, providing clear insights that support the early detection and treatment of cancer.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    img: "/risk_project.png",
+    iconLists: ["/python.png", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://shorturl.at/SltaG",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    title: "College Management System in Python Django",
+    des: "A fully functional project based on College Management System which uses Python with Django Web Framework. Django project contains all the important features.",
+    img: "django_project.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/python.png", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com", 
   },
 ];
@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Mike Absai was a seamless experience. His expertise in backend development and AI is unmatched. Mike's ability to deliver precise, efficient solutions while maintaining excellent communication made our collaboration a success. If you're looking for a skilled developer to bring your project to life, Mike is the one to trust.",
+    name: "Sarah Ochieng",
+    title: "TechNova Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Mike Absai's proficiency in backend development and AI was evident from the start. His ability to understand project requirements and deliver exceptional results, all while meeting tight deadlines, truly impressed us. Collaborating with Mike has been a game-changer for our remote projects.",
+    name: "James Kamau",
+    title: "Lead Developer at SmartHub ",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Mike Absai brought an incredible level of professionalism and skill to our project. His expertise in backend development and AI ensured our application ran flawlessly. I highly recommend Mike for any development needs, whether local or remote.",
+    name: "Linda Mwangi",
+    title: "NexaTech Innovations",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Mike Absai brought an incredible level of professionalism and skill to our project. His expertise in backend development and AI ensured our application ran flawlessly. I highly recommend Mike for any development needs, whether local or remote.",
+    name: "Linda Mwangi",
+    title: "NexaTech Innovations",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Mike Absai's proficiency in backend development and AI was evident from the start. His ability to understand project requirements and deliver exceptional results, all while meeting tight deadlines, truly impressed us. Collaborating with Mike has been a game-changer for our remote projects.",
+    name: "James Kamau",
+    title: "Lead Developer at SmartHub ",
   },
 ];
 
@@ -172,32 +172,31 @@ export const companies = [
 
 export const workExperience = [
   {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Backend Engineer Intern",
+    desc: "Contributed to the development of robust backend services using DRF and Django, optimizing API performance.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.svg"
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Software Engineer Intern",
+    desc: "Collaborated on software development projects, implementing features and debugging applications using Python and Django.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg"
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Freelance Development Projects",
+    desc: "Delivered scalable and efficient solutions for various freelance projects, specializing in backend and AI integrations.",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg"
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "AI Solutions Developer",
+    desc: "Designed and implemented AI-powered applications to automate workflows and enhance decision-making processes.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp4.svg"
   },
 ];
 
